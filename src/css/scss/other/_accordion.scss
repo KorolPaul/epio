@@ -5,8 +5,18 @@
     @include tablet {
         margin-top: 45px;
     }
-    
+
+    h3 + & {
+        @include tablet {
+            margin-top: 40px;
+        }
+    }
+    h3 + .wp-block-columns > .wp-block-column > & {
+        margin-top: 0;
+    }
+
     & > li {
+        font-size: 0;
         border-bottom: 1px solid rgba($cLight, .2);
         padding: 18px 0;
         @include tablet {
@@ -23,8 +33,10 @@
         }
 
         &.opened {
+            font-size: $font-size__small;
             padding-bottom: 24px;
             @include tablet {
+                font-size: $font-size;
                 padding-bottom: 50px;
             }
 
@@ -49,6 +61,13 @@
                 margin: 0 0 40px $indent;
             }
         }
+        &.opened > strong {
+            display: block;
+            margin: 0 0 30px 0;
+            @include tablet {
+                margin: 0 0 30px $indent;
+            }
+        }
         strong:first-child {
             cursor: pointer;
             font-size: 15px;
@@ -71,23 +90,7 @@
                     font-size: 34px;
                 }
             }
-
-            .accordion__alternate & {
-                @include tablet {
-                    font-size: 22px;
-                }
-            }
             
-        }
-
-        
-        h3 + & {
-            @include tablet {
-                margin-top: 40px;
-            }
-        }
-        h3 + .wp-block-columns > .wp-block-column > & {
-            margin-top: 0;
         }
     }
 
@@ -131,6 +134,7 @@
                 transform: rotate(-90deg);
                 @include tablet {
                     transform: none;
+                    background-image: url(#{$img}/arrow-right-bold.svg);
                 }
             }
         }
@@ -151,50 +155,6 @@
         }
         .opened em {
             display: block;
-        }
-    }
-
-    &_title {
-        cursor: pointer;
-        font-size: 15px;
-        font-weight: normal;
-        display: block;
-        position: relative;
-        padding-right: 20px;
-        margin: 0;
-        @include tablet {
-            font-size: 28px;
-        }
-
-        &::after {
-            content: '+';
-            position: absolute;
-            right: 0;
-            top: -3px;
-            font-size: 22px;
-            @include tablet {
-                font-size: 34px;
-            }
-        }
-
-        .opened > &::after {
-            content: '-';
-        }
-    }
-    &_text {
-        display: block;
-        overflow: hidden;
-        max-height: 0;
-        transition: .4s $easeOutCirc max-height,
-                    .4s linear padding;
-
-        .opened > & {
-            max-height: 1000px;
-            padding-top: 24px;
-            transition-timing-function: $easeInCirc, linear;
-            @include tablet {
-                padding-top: 40px;
-            }
         }
     }
 }

@@ -6,10 +6,6 @@
         font-size: 17px;
     }
 
-    &:hover {
-        opacity: .5;
-    }
-
     a:not([class]) {
         @include arrow-link-yellow;
         font-size: 18px;
@@ -18,6 +14,13 @@
         text-decoration: none;
         @include tablet {
             font-size: 30px;
+        }
+
+        &:hover {
+            color: rgba(#fff, .6);
+        }
+        &:active {
+            color: rgba(#fff, .8);
         }
 
         &::after {

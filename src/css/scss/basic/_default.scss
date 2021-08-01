@@ -113,6 +113,17 @@ figure {
             }
         }
     }
+    .home & p + p {
+        a:only-child {
+            @include tablet {
+                font-size: 22px;
+
+                &::after {
+                    top: 3px;
+                }
+            }
+        }
+    }
 
     &[style="flex-basis:33.33%"] {
         flex-basis: 28.44% !important;
@@ -162,6 +173,12 @@ article.category-bisinesses {
 .wp-block-latest-posts__list + p {
     @include tablet {
         margin: -95px 0 0;
+    }
+
+    a {
+        @include tablet {
+            font-size: 22px;
+        }
     }
 }
 
