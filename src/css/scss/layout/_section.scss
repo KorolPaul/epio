@@ -197,8 +197,26 @@
             font-size: 25px;
         }
 
+        .home & {
+            @include tablet {
+                font-size: 20px;
+            }
+        }
+
+        h1 {
+            position: relative;
+            z-index: 1;
+        }
         h3:first-child {
             margin-top: 0;
+        }
+        h3 {
+            @include tablet {
+                font-size: 40px;
+            }
+        }
+        p {
+            max-width: 1040px;
         }
     }
 

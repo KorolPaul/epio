@@ -362,6 +362,7 @@
         margin: 0 0 30px;
         @include tablet {
             margin-bottom: 44px;
+            font-size: 20px;
         }
         @include desktop {
             margin-bottom: 56px;

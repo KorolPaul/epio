@@ -39,6 +39,7 @@
             display: flex;
             padding-top: 340px;
             padding-bottom: 160px;
+            font-size: 25px;
         }
 
         &__no-flex {
@@ -119,6 +120,10 @@
             @include tablet {
                 margin: 125px 0 15px;
             }
+        }
+
+        p {
+            max-width: 1040px;
         }
     }
     &_page-title {

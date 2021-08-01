@@ -1,21 +1,18 @@
 .header {
     position: absolute;
-    left: $indent;
-    right: $indent;
+    left: 0;
+    right: 0;
     top: 0;
     padding: 24px 0;
     z-index: 3;
     transition: .2s $easing background;
     @include desktop {
-        padding: 46px 0;
+        padding: 46px $indent;
     }
 
     .fixed-header &,
     .search-opened & {
         position: fixed;
-        left: 0;
-        right: 0;
-        top: 0;
         background-color: $cLight;
     }
     .search-results & {

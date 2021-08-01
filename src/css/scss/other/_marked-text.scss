@@ -3,6 +3,7 @@
     position: relative;
     @include tablet {
         padding-left: 32px;
+        font-size: 20px;
     }
 
     &::before {
@@ -17,7 +18,7 @@
         @include tablet {
             height: 12px;
             width: 12px;
-            top: 4px;
+            top: 9px;
         }
     }
     .section__yellow &::before,

@@ -1,0 +1,50 @@
+.values {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @include tablet {
+        margin-bottom: 10px;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+        border-bottom: 1px solid rgba($cLight, 0.2);
+
+        &:last-child {
+            border: none;
+        }
+    }
+    &_title {
+        @include arrow-link;
+        display: block;
+        color: $cLight;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.4;
+        padding: 18px 58px 25px 0;
+        position: relative;
+        z-index: 1;
+        @include tablet {
+            font-size: 22px;
+            padding: 24px 58px 30px 0;
+        }
+    }
+    &_image {
+        position: absolute;
+        opacity: 0;
+        left: 0;
+        top: -25px;
+        right: 0;
+        pointer-events: none;
+        transition: .2s $easing opacity;
+        @include tablet {
+            top: -100px;
+        }
+
+        .active > & {
+            opacity: 1;
+        }
+    }
+}
