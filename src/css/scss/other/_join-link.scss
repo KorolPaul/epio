@@ -1,0 +1,35 @@
+.join-link {
+    display: block;
+    margin: 0;
+    transition: .2s $easing opacity;
+    @include tablet {
+        font-size: 17px;
+    }
+
+    &:hover {
+        opacity: .5;
+    }
+
+    a:not([class]) {
+        @include arrow-link-yellow;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 130%;
+        text-decoration: none;
+        @include tablet {
+            font-size: 30px;
+        }
+
+        &::after {
+            width: 31px;
+            top: -4px;
+            height: 31px;
+            @include tablet {
+                top: 5px;
+            }
+        }
+    }
+    .section__light & a:not([class]) {
+        color: $color;
+    }
+}

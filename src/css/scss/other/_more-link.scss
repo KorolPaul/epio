@@ -1,0 +1,88 @@
+.more-link {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: $cLight;
+    transition: .2s $easing color;
+    @include tablet {
+        font-size: 17px;
+    }
+
+    p:not([class]) + & {
+        margin-top: 54px;
+    }
+
+    &:hover {
+        color: rgba($cLight, .6);
+    }
+
+    &_text {
+        @include arrow-link-yellow;
+        transition: .2s $easing color;
+
+        .grid-articles_content & {
+            @include arrow-link-dark;
+            color: $color;
+        }
+        .grid-articles_content .more-link:hover & {
+            color: rgba($color, .6);
+
+        }
+        .grid-articles_content .more-link:hover &::after {
+            box-shadow: 0 0 0 6px $color;
+        }
+        .grid-articles_content .more-link:active & {
+            color: rgba($color, .8);
+        }
+        .section__light &,
+        .section__blue & {
+            color: $color;
+        }
+        .section__light .more-link:hover &,
+        .section__blue .more-link:hover &  {
+            color: rgba($color, .6);
+        }
+        .section__light .more-link:active,
+        .section__blue .more-link:active & {
+            color: rgba($color, .8);
+        }
+
+        .more-link:hover &,
+        &:hover {
+            color: rgba($cLight, .6);
+        }
+        .more-link:active &,
+        &:active {
+            color: rgba($cLight, .8);
+        }
+        .more-link:hover &::after {
+            box-shadow: 0 0 0 6px $cYellow;
+        }
+    }
+    a:not([class]) {
+        @include arrow-link-yellow;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 1;
+            color: rgba($cLight, .75);
+        }
+
+        .section__light &,
+        .section__blue & {
+            color: $color;
+        }
+        .section__light .more-link:hover &,
+        .section__blue .more-link:hover &  {
+            color: rgba($color, .6);
+        }
+        .section__light .more-link:active,
+        .section__blue .more-link:active & {
+            color: rgba($color, .8);
+        }
+    }
+
+    .article-previews & {
+        display: none;
+    }
+}

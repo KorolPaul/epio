@@ -1,0 +1,34 @@
+.links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    @include tablet {
+        margin-bottom: 10px;
+    }
+
+    &_item,
+    li {
+        padding: 0;
+        margin: 0;
+        border-bottom: 1px solid rgba($cLight, 0.2);
+
+        &:last-child {
+            border: none;
+        }
+    }
+    &_link,
+    a:not([class]) {
+        @include arrow-link;
+        display: block;
+        color: $cLight;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.4;
+        padding: 18px 58px 25px 0;
+        @include tablet {
+            font-size: 22px;
+            padding: 24px 58px 30px 0;
+        }
+    }
+}

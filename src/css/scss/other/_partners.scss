@@ -1,0 +1,55 @@
+.partners {
+    background-color: $cYellow;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    &__transparent {
+        background-color: transparent;
+        @include tablet {
+            margin: 80px 0 16px;
+        }
+    }
+
+    &_holder {
+        @include layout;
+        padding-top: 30px;
+        padding-bottom:  40px;
+        @include tablet {
+            display: flex;
+            padding-top: 40px;
+            height: 192px;
+            box-sizing: border-box;
+            align-items: center;
+        }
+    }
+    &_title {
+        color: $color;
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 0 40px;
+        @include tablet {
+            font-size: 22px;
+            margin: 0 80px 0 0;
+        }
+    }
+    &_content {
+    }
+    &_list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        //white-space: nowrap;
+        //overflow: auto;
+    }
+    &_item {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+    &_item-image {
+        height: 30px;   
+    }
+}

@@ -1,0 +1,13 @@
+.posts-grid {
+    counter-reset: posts-counter;
+    @include tablet {
+        display: grid;
+		grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+    }
+
+    & > div {
+        counter-increment: posts-counter;
+    }
+}

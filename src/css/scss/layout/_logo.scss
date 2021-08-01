@@ -1,0 +1,17 @@
+.logo {
+    position: relative;
+    z-index: 2;
+
+    &_icon {
+        width: 46px;
+        @include tablet {
+            width: 68px;
+        }
+
+        .fixed-header .header &,
+        .search-opened .header &,
+        .search-results .header &  {
+            filter: invert(1);
+        }
+    }
+}

@@ -1,0 +1,222 @@
+.intro {
+    color: $cLight;
+    @include tablet {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__absolute {
+        @include tablet {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            height: 192px;
+        }
+    }
+
+    &_image {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -2;
+        object-fit: cover;
+        object-position: top;
+        min-height: 100%;
+
+        .intro_content__no-indent & {
+            min-height: 0;
+        }
+        .intro_content__no-flex & {
+            object-fit: contain;
+        }
+    }
+    &_content {
+        @include tablet {
+            @include layout;
+            display: flex;
+            padding-top: 340px;
+            padding-bottom: 160px;
+        }
+
+        &__no-flex {
+            @include tablet {
+                flex-direction: column;
+                padding-bottom: 60px;
+            }
+
+            & > h1 {
+                position: relative;
+                z-index: 2;
+                @include tablet {
+                    margin-bottom: 70px;
+                }
+            }
+            & > h1 + .wp-block-columns {
+                @include tablet {
+                    margin-top: 46px;
+                }
+            }
+            & > h2 {
+                position: relative;
+                z-index: 2;
+                margin-top: 45px;
+                @include tablet {
+                    margin-top: 110px;
+                }
+            }
+            & > h3,
+            & > h4 {
+                margin-top: 35px;
+                @include tablet {
+                    font-size: 40px;
+                    margin-top: 120px;
+                    margin-bottom: 80px;
+                }
+            }
+            & > .slider + h3,
+            & > .slider + h4 {
+                @include tablet {
+                    margin-top: 140px;
+                }
+            }
+            & > p +  h3,
+            & > p + h4 {
+                @include tablet {
+                    margin-top: 110px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        &__no-indent {
+            padding-bottom: 0;
+
+            .wp-block-columns[class] {
+                @include tablet {
+                    margin-bottom: 150px;
+                }
+            }
+        }
+
+        & > h1 {
+            font-size: 35px;
+            margin-top: 0;
+            @include tablet {
+                font-size: 65px;
+                width: 75%;
+            }
+        }
+        & > figure {
+            margin: 45px 0;
+            @include tablet {
+                margin: 156px 0 120px;
+            }
+        }
+        & > figure.is-type-video {
+            margin: 30px 0 15px;
+            @include tablet {
+                margin: 125px 0 15px;
+            }
+        }
+    }
+    &_page-title {
+        margin: 0 0 35px;
+        position: relative;
+        z-index: 2;
+        @include tablet {
+            margin-bottom: 25px;
+        }
+    }
+    &_text {
+        @include layout;
+        position: relative;
+        z-index: 2;
+        padding-top: 180px;
+        padding-bottom: 140px;
+        line-height: 1.5;
+        @include tablet {
+            padding-top: 215px;
+            width: 55%;
+            position: static;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        p {
+            position: relative;
+        }
+
+        h1 {
+            font-size: 35px;
+            margin-top: 0;
+            @include tablet {
+                font-size: 65px;
+                margin-bottom: 40px;
+            }
+        }
+        p {
+            font-size: 15px;
+            @include tablet {
+                font-size: 25px;
+            }
+        }
+    }
+    &_meta {
+        margin: 40px 0;
+        @include tablet {
+            width: calc(66.6% - 26px);
+            align-self: flex-end;
+            margin: 120px 0 55px;
+        }
+
+        h1 + & {
+            @include tablet {
+                margin-top: 24px;
+                margin-bottom: 34px;
+            }
+        }
+    }
+    &_meta-item {
+        display: inline-block;
+        margin: 0 40px 0 0;
+        font-size: 11px;
+        color: $cYellow;
+        @include tablet {
+            margin-right: 60px;
+            font-size: 20px;
+        }
+    }
+    &_meta-title {
+        margin: 0 6px 0 0;
+        opacity: .4;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: normal;
+        @include tablet {
+            font-size: 40px;
+        }
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: normal;
+        margin: 0;
+        @include tablet {
+            font-size: 35px;
+            margin: -10px 50px 0 0;
+        }
+    }
+    .wp-block-columns {
+        margin-bottom: 0;
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

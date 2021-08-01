@@ -1,0 +1,27 @@
+.marked-text {
+    padding: 0 0 0 26px;
+    position: relative;
+    @include tablet {
+        padding-left: 32px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 2px;
+        border-radius: 50%;
+        height: 9px;
+        width: 9px;
+        background: $cYellow;
+        @include tablet {
+            height: 12px;
+            width: 12px;
+            top: 4px;
+        }
+    }
+    .section__yellow &::before,
+    .section__light &::before {
+        background: $color;
+    }
+}

@@ -1,0 +1,28 @@
+.form {
+    &_columns {
+        margin: 0 0 40px;
+        @include tablet {
+            display: flex;
+            justify-content: space-between;
+            gap: 38px;
+            margin: 0 0 60px;
+        }
+    }
+    &_column {
+        @include tablet {
+            flex-grow: 1;
+        }
+    }
+    &_row {
+        @include tablet {
+            margin: 0 0 15px;
+        }
+
+        &:last-child {
+            margin-top: 40px;
+            @include tablet {
+                margin-top: 50px;
+            }
+        }
+    }
+}

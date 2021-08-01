@@ -1,0 +1,172 @@
+body {
+    background-color: $bg_color;
+    color: $cLight;
+    font: #{$font-size__small}/#{1.5} $font-family;
+    padding: 0;
+    scroll-behavior: smooth;
+    @include tablet {
+        font-size: $font-size;
+    }
+}
+
+a {
+    color: $color;
+    text-decoration: none;
+    transition: .2s $easing color,
+                .2s $easing opacity;
+
+    &:hover {
+        color: $cYellow;
+        outline: none;
+    }
+    &:active,
+    &.active {
+        color: rgba($cYellow, .8);
+        outline: none;
+    }
+}
+
+p {
+    margin: 0 0 20px;
+    @include tablet {
+        margin-bottom: 30px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+button,
+input,
+textarea {
+    &:focus {
+        outline: none;
+    }
+}
+
+ol,
+ul {
+    padding: 0;
+
+    h2 + &,
+    h3 + &,
+    h4 + & {
+        margin-top: 0;
+        @include tablet {
+            margin-top: -10px;
+        }
+    }
+}
+
+ul:not([class]) li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 5px 30px;
+
+    &::before {
+        content: '\00B7';
+        font-size: 40px;
+        line-height: 0;
+        position: absolute;
+        left: 4px;
+        top: 12px;
+    }
+}
+ol:not([class]) li {
+    margin: 0 0 5px 30px;
+}
+
+figure {
+    margin: 0;
+}
+
+#turnkey-credit {
+    display: none;
+}
+
+.wp-block-image img {
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.wp-block-columns + h3 {
+    @include tablet {
+        margin-top: 106px;
+    }
+}
+
+.wp-block-column {
+    h2,
+    h3 {
+        margin-top: 0;
+    }
+
+    p + p {
+        a:only-child {
+            @include tablet {
+                margin-top: 20px;
+                display: inline-block;
+            }
+        }
+    }
+
+    &[style="flex-basis:33.33%"] {
+        flex-basis: 28.44% !important;
+    }
+    &[style="flex-basis:66.66%"] {
+        flex-basis: 71.66% !important;
+    }
+}
+
+hr.wp-block-separator {
+    width: 100%;
+    margin: 50px 0;
+    color: #B0CACB;
+    max-width: none !important;
+    @include tablet {
+        margin: 115px 0 150px;
+    }
+
+    .section_image + & {
+        margin-top: 0;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.wpcf7-list-item {
+    margin: 0;
+}
+
+article.category-bisinesses {
+    margin-bottom: 167px;
+    position: relative;
+    @include tablet {
+        margin-bottom: 399px;
+    }
+
+    .section__minified {
+        position: absolute;
+        left: 0;
+        top: calc(100% + 40px);
+        width: 100%;
+    }
+}
+
+.wp-block-latest-posts__list + p {
+    @include tablet {
+        margin: -95px 0 0;
+    }
+}
+
+.home {
+    h1, .wp-block-columns, img, .blog-entry, .grid-articles_show-all {
+        transition: .1s ease opacity;
+    }
+}

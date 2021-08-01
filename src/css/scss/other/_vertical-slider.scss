@@ -1,0 +1,102 @@
+.vertical-slider {
+    overflow: hidden;
+    @include tablet {
+        padding: 353px 0;
+    }
+
+    &_item {
+        transition: .3s $easing opacity;
+        @include tablet {
+            min-height: 353px;
+            opacity: .3;
+        }
+
+        &.tns-slide-active {
+            @include tablet {
+                opacity: 1;
+            }
+        }
+    }
+    &_item-row {
+        @include tablet {
+            display: flex;
+            gap: 70px;
+        }
+    }
+    &_image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        z-index: 1;
+        transition: .2s $easing opacity;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+    &_item-title {
+        font-size: 35px;
+        display: block;
+        margin: 0 0 6px;
+        @include tablet {
+            font-size: 55px;
+        }
+    }
+    &_item-row {
+        padding: 0 $indent;
+        @include tablet {
+            padding: 100px 0;
+        }
+    }
+    &_item-cell {
+        font-size: 16px;
+        padding: 0 0 28px;
+        @include tablet {
+            font-size: 18px;
+            padding: 0;
+            width: 20%;
+        }
+
+        &:first-child {
+            @include tablet {
+                width: 40%;
+            }
+        }
+    }
+    &_item-cell-title {
+        display: block;
+        font-weight: bold;
+        margin: 0 0 15px;
+    }
+
+    .tns-outer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+    }
+    .tns-nav {
+        display: block;
+
+        button {
+            display: block;
+            margin: 28px 0;
+        }
+    }
+    .tns-ovh {
+        overflow: visible;
+    }
+    a {
+        color: $cLight;
+
+        &:hover {
+            color: $cYellow;
+        }
+        &:active {
+            color: rgba($cYellow, .8);
+        }
+    }
+}

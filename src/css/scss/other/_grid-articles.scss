@@ -1,0 +1,52 @@
+.grid-articles {
+    &_content {
+        display: flex;
+        overflow: auto;
+        margin: 0;
+        @include tablet {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            column-gap: 68px;
+            margin: 0 0 -62px;
+            overflow: visible;
+        }
+        @include desktop {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        a:not([class]) {
+            color: $color;
+            text-decoration: none;
+            display: block;
+            @include tablet {
+                min-height: 48px;
+            }
+        }
+        .more-link {
+            margin: 18px 0 0;
+        }
+    }
+    &_show-all {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 36px 0 0;
+        @include desktop {
+            position: absolute;
+            right: 0;
+            top: 520px;
+            margin: 0;
+        }
+
+        a:not([class]) {
+            color: $color;
+
+            &:hover {
+                color: rgba($color, .6);
+            }
+            &:active {
+                color: rgba($color, .8);
+            }
+        }
+    }
+}

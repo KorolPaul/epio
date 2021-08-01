@@ -1,0 +1,126 @@
+.tabs {
+    background-color: $color;
+    position: relative;
+    color: $cLight;
+    padding: 50px 0 0;
+    @include tablet {
+        padding: 160px 0 0;
+    }
+
+    &__small {
+        background-color: transparent;
+        padding-top: 0;
+
+        h1 + & {
+            @include tablet {
+                margin-top: 5px;
+            }
+        }
+    }
+
+    &_title {
+        font-size: 24px;
+        margin: 0 0 42px;
+        @include tablet {
+            font-size: 40px;
+            max-width: 1076px;
+            margin-bottom: 86px;
+        }
+
+        .tabs__big-title & {
+            font-size: 35px;
+            margin: 0 0 50px;
+            @include tablet {
+                font-size: 65px;
+                max-width: 1076px;
+                margin-bottom: 86px;
+            }
+        }
+    }
+    &_intro {
+        @include layout;
+        position: relative;
+        z-index: 2;
+        padding-top: 140px;
+    }
+    &_buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 -18px;
+        @include tablet {
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 800px;
+            margin-bottom: -35px;
+        }
+
+        .tabs__small & {
+            max-width: none;
+            margin-bottom: 30px;
+            @include tablet {
+                margin-bottom: 125px;
+            }
+        }
+    }
+    &_button {
+        font-size: 13px;
+        font-weight: normal;
+        border: 1px solid $cLight;
+        color: $cLight;
+        white-space: nowrap;
+        background-color: transparent;
+        margin: 0 0 18px;
+        max-width: none;
+        width: auto;
+        @include tablet {
+            font-size: 18px;
+            margin: 0 22px 35px 0;
+        }
+
+        &:hover,
+        &.active {
+            background-color: $cYellow;
+            border-color: $cYellow;
+            color: $color;
+        }
+        &:active {
+            opacity: .7;
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+        @include tablet {
+            margin-bottom: 55px;
+            font-size: 40px;
+        }
+    }
+}
+
+.tab {
+    display: none;
+
+    &.opened {
+        display: block;
+    }
+
+    &_content {
+        position: relative;
+        z-index: 2;
+
+        .section:first-child {
+            @include tablet {
+                padding-top: 72px;
+            }
+        }
+    }
+    &_background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,33 @@
+.meta-links {
+    margin: 40px 0;
+    list-style: none;
+    display: flex;
+    @include tablet {
+        width: calc(66.6% - 26px);
+        margin: 44px 0 160px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 40px 0 0;
+        font-size: 11px;
+        color: $cYellow;
+        @include tablet {
+            margin-right: 60px;
+            font-size: 20px;
+            white-space: nowrap;
+        }
+    }
+    a {
+        color: rgba($cYellow, .4);
+        margin: 0 6px 0 0;
+        text-decoration: underline;
+
+        &:hover {
+            color: rgba($cYellow, .8);
+        }
+        &:active {
+            color: rgba($cYellow, .6);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.button-link {
+    a:not([class]) {
+        display: inline-block;
+        position: relative;
+        @include desktop {
+            @include submit;
+            position: absolute;
+            right: 0;
+            top: -10px;
+            font-size: 15px;
+        }
+
+        &:hover {
+            @include desktop {
+                color: $color;
+            }
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: calc(100% + 18px);
+            top: -2px;
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+            background: $cYellow url(#{$img}/arrow-right.svg) no-repeat center center;
+            @include desktop {
+                display: none;
+            }
+        }
+    }
+}

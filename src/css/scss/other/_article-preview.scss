@@ -1,0 +1,133 @@
+.article-previews {
+    @include layout;
+    background: $color;
+    margin: 0;
+    color: $cLight;
+    padding: 26px $indent;
+    @include tablet {
+        position: absolute;
+        top: 340px;
+        right: $indent;
+        z-index: 3;
+        max-width: 320px;
+        height: 350px;
+        max-height: 50vh;
+        overflow: auto;
+        z-index: 2;
+        padding: 0;
+        background-color: transparent;
+        mask-image: linear-gradient(to bottom, #000 85%, transparent 100%);
+    }
+    @include desktop {
+        right: auto;
+        left: calc(50% + (#{$max-width} / 2) - 320px);
+    }
+
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+    
+    &::-webkit-scrollbar-track {
+        width: 0;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        width: 0;
+        height: 0;
+    }
+
+    li {
+        @include arrow-link;
+        display: block;
+        margin: 0;
+        padding: 24px 58px 28px 0;
+        border-bottom: 1px solid rgba($cLight, .2);
+
+        &:last-child {
+            margin-bottom: 20px;
+        }
+        &::after {
+            top: 17px;
+        }
+    }
+    li div {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    a {
+        font-size: 16px;
+        line-height: 110%;
+        font-weight: bold;
+        color: $cLight;
+        display: block;
+        margin: 0 0 25px;
+    }
+
+    
+    &__big {
+        padding: 0;
+
+        li {
+            color: $color;
+            margin: 0 22px 0 0;
+            border: 1px solid rgba(31, 31, 32, .2);
+            min-width: 160px;
+            padding: 11px 20px;
+            @include tablet {
+                border: none;
+                padding: 62px 0;
+            }
+
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4) {
+                @include tablet {
+                    padding-top: 0;
+                    border-bottom: 1px solid rgba(31, 31, 32, .2);
+                }
+            }
+        }
+    }
+}
+
+.article-preview {
+    display: block;
+    margin: 0;
+    padding: 24px 0 28px;
+    border-bottom: 1px solid rgba($cLight, .2);
+
+    &_title {
+        color: $cLight;
+        display: block;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 1.1;
+        margin: 0 0 20px;
+        @include tablet {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .article-previews__big & {
+            color: $color;
+        }
+    }
+    &_text {
+        font-size: 11px;
+        line-height: 1.4;
+        color: $cLight;
+
+        .article-previews__big & {
+            color: $color;
+        }
+    }
+    &_link {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        @include tablet {
+            font-size: 17px;
+        }
+    }
+}

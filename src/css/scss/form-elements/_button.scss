@@ -1,0 +1,65 @@
+@mixin button {
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    background-color: $color;
+    color: $cLight;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+    transition: .2s ease-in-out border-color,
+                .2s ease-in-out background-color,
+                .2s ease-in-out opacity,
+                .2s ease-in-out color;
+    @include tablet {
+        display: inline-block;
+        max-width: 300px;
+    }
+
+    &:active {
+
+        color: rgba(#fff, .3);
+    }
+    &:disabled {
+        opacity: .3;
+    }
+}
+
+@mixin submit {
+    border: none;
+    color: $color;
+    display: inline-block;
+    position: relative;
+    margin-top: 0;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .2s $easing opacity;
+    @include tablet {
+        padding: 12px 21px;
+        background-color: $cYellow;
+        border-radius: 50px;
+        color: $color;
+    }
+
+    &:hover {
+        opacity: .75;
+    }
+}
+
+.button,
+button,
+input[type="button"] {
+    @include button;
+}
+
+input[type="submit"] {
+    @include submit;
+    @include tablet {
+        font-size: 18px;
+    }
+}

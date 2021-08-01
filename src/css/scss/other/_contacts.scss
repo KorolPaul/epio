@@ -1,0 +1,53 @@
+.contacts {
+    &_item-row {
+        @include tablet {
+            display: flex;
+            gap: 70px;
+        }
+    }
+    &_item-title {
+        font-size: 35px;
+        display: block;
+        margin: 0 0 6px;
+        @include tablet {
+            font-size: 55px;
+        }
+    }
+    &_item-row {
+        padding: 0 $indent;
+        @include tablet {
+            padding: 100px 0;
+        }
+    }
+    &_item-cell {
+        font-size: 16px;
+        padding: 0 0 28px;
+        @include tablet {
+            font-size: 18px;
+            padding: 0;
+            width: 20%;
+        }
+
+        &:first-child {
+            @include tablet {
+                width: 40%;
+            }
+        }
+    }
+    &_item-cell-title {
+        display: block;
+        font-weight: bold;
+        margin: 0 0 15px;
+    }
+
+    a {
+        color: $cLight;
+
+        &:hover {
+            color: $cYellow;
+        }
+        &:active {
+            color: rgba($cYellow, .8);
+        }
+    }
+}

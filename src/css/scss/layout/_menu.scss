@@ -1,0 +1,96 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    position: absolute;
+    left: -$indent;
+    right: -$indent;
+    top: 0;
+    background-color: $color;
+    padding: 120px $indent 0;
+    opacity: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: auto;
+    transition: .2s $easing opacity;
+    @include desktop {
+        flex-direction: row;
+        align-items: center;
+        opacity: 1;
+        pointer-events: all;
+        position: static;
+        background-color: transparent;
+        padding: 0;
+        height: auto;
+    }
+
+    .menu-opened & {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    &_list {
+        list-style: none;
+        order: 1;
+        border-bottom: 1px solid rgba($cLight, .2);
+        padding: 0 0 40px;
+        margin: 0 0 30px;
+        @include desktop {
+            order: inherit;
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            @include desktop {
+                display: inline-block;
+            }
+        }
+    }
+    a:not([class]) {
+        color: $cLight;
+        font-size: $font-size;
+        display: block;
+        margin: 20px 0;
+        @include desktop {
+            display: inline;
+            font-size: 16px;
+            margin: 0 22px;
+        }
+
+        &:hover {
+            color: $cYellow;
+        }
+
+        .fixed-header &,
+        .search-opened &,
+        .search-results & {
+            color: $color;
+
+             &:hover {
+                color: $cYellow;
+            }
+        }
+    }
+    .lang-item {
+        display: inline-block;
+        a:not([class]) {
+            margin-right: 0;
+        }
+    }
+    .lang-item + .lang-item {
+        a:not([class]) {
+            margin-left: 0;
+
+            &::before {
+                content: '/ ';
+                color: $cLight;
+            }
+        }
+    }
+    .current_page_item a {
+        color: $cYellow;
+    }
+}

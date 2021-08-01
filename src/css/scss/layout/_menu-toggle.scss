@@ -1,0 +1,59 @@
+.menu-toggle {
+    background: transparent;
+    padding: 10px;
+    border: none;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 0 -10px 0 0;
+    z-index: 2;
+    @include desktop {
+        display: none;
+    }
+    &_line {
+        width: 22px;
+        height: 1px;
+        margin: 7px 0;
+        background-color: $cLight;
+        transition: .2s $easing opacity,
+                    .2s $easing transform;
+
+        .fixed-header &,
+        .search-opened &,
+        .search-results & {
+            background-color: $color;
+        }
+
+        .menu-opened & {
+            opacity: 0;
+        }
+
+        &:nth-child(2) {
+            position: relative;
+
+            .menu-opened & {
+                opacity: 1;
+                transform: rotate(45deg);
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                background-color: $cLight;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                transition: .2s $easing transform;
+            }
+            .menu-opened &::after {
+                transform: rotate(-90deg);
+            }
+            .fixed-header &::after,
+            .search-opened &::after,
+            .search-results &::after {
+                background-color: $color;
+            }
+        }
+    }
+}

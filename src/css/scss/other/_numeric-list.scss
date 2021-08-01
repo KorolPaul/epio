@@ -1,0 +1,52 @@
+.numeric-list {
+    padding: 0;
+    counter-reset: numeric-counter;
+    list-style: none;
+    margin: 0;
+
+    &__indent-bottom {
+        margin-bottom: 100px;
+    }
+
+    li {
+        counter-increment: numeric-counter;
+        padding: 0;
+        margin: 0;
+        padding: 18px 0 25px 40px;
+        font-size: 14px;
+        position: relative;
+        @include tablet {
+            padding: 24px 0 30px 52px;
+            font-size: 22px;
+        }
+
+        
+        &::before {
+            content: '0' counter(numeric-counter);
+            font-size: 10px;
+            font-weight: bold;
+            display: inline-block;
+            vertical-align: middle;
+            margin: -2px 0 0;
+            position: absolute;
+            top: 23px;
+            left: 0;
+            @include tablet {
+                font-size: 16px;
+                top: 31px;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            border-bottom: 1px solid currentColor;
+            opacity: .2;
+        }
+        &:last-child::after {
+            content: none;
+        }
+    }
+}

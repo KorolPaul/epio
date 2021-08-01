@@ -1,0 +1,59 @@
+.next-article {
+    background-color: $cLight;
+    color: $color;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+
+    &_holder {
+        @include tablet {
+            @include layout;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &_caption {
+        font-size: 9px;
+        color: #B0ABAB;
+        display: block;
+        margin: 0 0 14px;
+        @include tablet {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    }
+    &_title {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin: 0;
+        @include tablet {
+            font-size: 40px;
+        }
+    }
+    &_text {
+        padding: 46px $indent 40px;
+        box-sizing: border-box;
+        transition: .2S $easing opacity;
+        @include tablet {
+            width: 50%;
+            flex-shrink: 0;
+        }
+
+        .next-article:hover & {
+            opacity: .6;
+        }
+    }
+    &_image {
+        filter: grayscale(1) brightness(.5);
+        transition: .2S $easing filter;
+        @include tablet {
+            width: 50vw;
+        }
+
+        .next-article:hover & {
+            filter: grayscale(0) brightness(1);
+        }
+    }
+}

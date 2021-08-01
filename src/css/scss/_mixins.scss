@@ -1,0 +1,132 @@
+@mixin invisible-text {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+@mixin cutted-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@mixin tablet() {
+    @media all and (min-width: 769px) { @content; }
+}
+@mixin desktop() {
+    @media all and (min-width: 1399px) { @content; }
+}
+@mixin desktop-large() {
+    @media all and (min-width: 1600px) { @content; }
+}
+@mixin media($resolution) {
+    @media all and (min-width: $resolution) { @content; }
+}
+@mixin mediaHeight($resolution) {
+    @media all and (min-height: $resolution) { @content; }
+}
+@mixin placeholder-color($color) {
+    &::-webkit-input-placeholder {
+        color: $color;
+    }
+    &::-moz-placeholder {
+        color: $color;
+    }
+    &:-ms-input-placeholder
+    {
+        color: $color;
+    }
+}
+
+@mixin layout {
+    padding-left: $indent;
+    padding-right: $indent;
+    box-sizing: border-box;
+    @include tablet {
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@mixin gradiented-text($color1, $color2) {
+    @supports(-webkit-background-clip: text) {
+        background: linear-gradient(to right, $color1,$color2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@mixin arrow-link {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 26px;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        filter: invert(1);
+        background: url(#{$img}/arrow-right.svg) no-repeat center center;
+        transition: .2s $easing background,
+                    .2s $easing filter;
+    }
+
+    &:hover::after {
+        background-color: $cYellow;
+        filter: invert(0);
+    }
+}
+
+@mixin arrow-link-dark {
+    position: relative;
+    padding-right: 14px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 100%;
+        top: -2px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border-color: $color;
+        box-shadow: 0 0 0 0 $color;
+        background: $color url(#{$img}/arrow-right-yellow.svg) no-repeat center center;
+        transition: .2s $easing box-shadow;
+        @include tablet {
+            width: 26px;
+            height: 26px;
+        }
+    }
+    &:hover::after {
+        box-shadow: 0 0 0 3px $color;
+    }
+}
+
+@mixin arrow-link-yellow {
+    position: relative;
+    text-decoration: none;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: calc(100% + 14px);
+        top: -2px;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 $cYellow;
+        background:  $cYellow url(#{$img}/arrow-right.svg) no-repeat center center;
+        border: 1px solid $cYellow;
+        transition: .2s $easing box-shadow;
+        @include tablet {
+            width: 26px;
+            height: 26px;
+        }
+    }
+    &:hover::after {
+        box-shadow: 0 0 0 6px $cYellow;
+    }
+}

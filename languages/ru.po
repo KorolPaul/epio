@@ -1,0 +1,3076 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Epio\n"
+"POT-Creation-Date: 2021-07-27 19:13+0300\n"
+"PO-Revision-Date: 2021-07-27 19:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: wp-content/themes/epio\n"
+"X-Poedit-SearchPath-1: wp-content/plugins\n"
+"X-Poedit-SearchPath-2: wp-includes/blocks/latest-posts.php\n"
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:82
+msgid "Comment History"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:86
+#: wp-content/plugins/akismet/class.akismet-admin.php:1212
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:32
+#: wp-content/plugins/contact-form-7/modules/text.php:278
+#: wp-content/plugins/contact-form-7/modules/text.php:281
+msgid "Akismet"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:87
+msgid ""
+"We collect information about visitors who comment on Sites that use our "
+"Akismet anti-spam service. The information we collect depends on how the "
+"User sets up Akismet for the Site, but typically includes the commenter's IP "
+"address, user agent, referrer, and Site URL (along with other information "
+"directly provided by the commenter such as their name, username, email "
+"address, and the comment itself)."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:105
+#: wp-content/plugins/akismet/class.akismet-admin.php:241
+#: wp-content/plugins/contact-form-7/admin/admin.php:631
+msgid "Settings"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:112
+#: wp-content/plugins/akismet/class.akismet-admin.php:115
+msgid "Akismet Anti-Spam"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:144
+msgid "Remove this URL"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:145
+msgid "Removing..."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:146
+msgid "URL removed"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:147
+msgid "(undo)"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:148
+msgid "Re-adding..."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:179
+#: wp-content/plugins/akismet/class.akismet-admin.php:217
+#: wp-content/plugins/akismet/class.akismet-admin.php:230
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:16
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:30
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:49
+msgid "Overview"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:190
+msgid "New to Akismet"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:194
+#, php-format
+msgid "Sign up for an account on %s to get an API Key."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:201
+msgid "Enter an API Key"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:254
+msgid "Account"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:275
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:363
+#, php-format
+msgid "<a href=\"%s\">Akismet</a> blocks spam from getting to your blog. "
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:375
+#, php-format
+msgid ""
+"There&#8217;s nothing in your <a href='%s'>spam queue</a> at the moment."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:416
+msgid "Checking for Spam (%1$s%)"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:437
+msgid "You don't have permission to do that."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:529
+msgid "Awaiting spam check"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:533
+msgid "Flagged as spam by Akismet"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:535
+msgid "Cleared by Akismet"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:539
+#, php-format
+msgid "Flagged as spam by %s"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:541
+#, php-format
+msgid "Un-spammed by %s"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:603
+msgid "Akismet re-checked and caught this comment as spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:606
+msgid "Akismet caught this comment as spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:609
+msgid "Akismet re-checked and cleared this comment."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:612
+msgid "Akismet cleared this comment."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:618
+#, php-format
+msgid "Comment was caught by %s."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:624
+#, php-format
+msgid "%s reported this comment as spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:627
+msgid "This comment was reported as spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:632
+#, php-format
+msgid "%s reported this comment as not spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:635
+msgid "This comment was reported as not spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:639
+msgid "Akismet caught this comment as spam during an automatic retry."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:642
+msgid "Akismet cleared this comment during an automatic retry."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:646
+#, php-format
+msgid ""
+"Akismet was unable to check this comment (response: %s) but will "
+"automatically retry later."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:649
+msgid ""
+"Akismet was unable to check this comment but will automatically retry later."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:654
+#, php-format
+msgid "Akismet was unable to recheck this comment (response: %s)."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:657
+msgid "Akismet was unable to recheck this comment."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:665
+#, php-format
+msgid "Comment status was changed to %s"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:671
+#, php-format
+msgid "%1$s changed the comment status to %2$s."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:689
+msgid "No comment history."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:895
+#, php-format
+msgid ""
+"Please check your <a href=\"%s\">Akismet configuration</a> and contact your "
+"web host if problems persist."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:1002
+msgid "Cleaning up spam takes time."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:1076
+msgid ""
+"There were no comments to check. Akismet will only check comments awaiting "
+"moderation."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:1083
+msgid "No comments were caught as spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:1093
+msgid "Akismet could not recheck your comments for spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:1194
+msgid ""
+"Used by millions, Akismet is quite possibly the best way in the world to "
+"<strong>protect your blog from spam</strong>. Your site is fully configured "
+"and being protected, even while you sleep."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-admin.php:1197
+msgid ""
+"Used by millions, Akismet is quite possibly the best way in the world to "
+"<strong>protect your blog from spam</strong>. It keeps your site protected "
+"even while you sleep. To get started, just go to <a href=\"admin.php?"
+"page=akismet-key-config\">your Akismet Settings page</a> to set up your API "
+"key."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:36
+#, php-format
+msgid "Comment #%d is spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:39
+#, php-format
+msgid "Comment #%d is not spam."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:43
+msgid "Failed to connect to Akismet."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:46
+#, php-format
+msgid "Comment #%d could not be checked."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:134
+msgid "API key must be set to fetch stats."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:159
+msgid "Currently unable to fetch stats. Please try again."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-cli.php:165
+msgid "Stats response could not be decoded."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:27
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:101
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:114
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:127
+msgid "A 12-character Akismet API key. Available at akismet.com/get/"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:51
+msgid ""
+"If true, Akismet will automatically discard the worst spam automatically "
+"rather than putting it in the spam folder."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:56
+msgid ""
+"If true, show the number of approved comments beside each comment author in "
+"the comments list page."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:71
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:80
+msgid ""
+"The time period for which to retrieve stats. Options: 60-days, 6-months, all"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:152
+msgid "This site's API key is hardcoded and cannot be changed via the API."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:158
+msgid "The value provided is not a valid and registered API key."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-rest-api.php:174
+msgid "This site's API key is hardcoded and cannot be deleted."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-widget.php:12
+msgid "Akismet Widget"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-widget.php:13
+msgid "Display the number of spam comments Akismet has caught"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet-widget.php:69
+#: wp-content/plugins/akismet/class.akismet-widget.php:90
+msgid "Spam Blocked"
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet.php:250
+msgid "Comment discarded."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet.php:575
+msgid "Akismet is not configured. Please enter an API key."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet.php:581
+msgid "Comment not found."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet.php:1370
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a "
+"href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
+msgstr ""
+
+#: wp-content/plugins/akismet/class.akismet.php:1616
+#, php-format
+msgid ""
+"This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel="
+"\"nofollow noopener\">Learn how your comment data is processed</a>."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/config.php:233
+msgid "Upgrade"
+msgstr ""
+
+#: wp-content/plugins/akismet/views/config.php:233
+msgid "Change"
+msgstr ""
+
+#: wp-content/plugins/akismet/views/connect-jp.php:23
+#: wp-content/plugins/akismet/views/connect-jp.php:58
+#, php-format
+msgid "You are connected as %s."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/connect-jp.php:36
+#, php-format
+msgid "Your subscription for %s is cancelled."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/connect-jp.php:44
+#, php-format
+msgid "Your subscription for %s is suspended."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:17
+msgid ""
+"<strong>Almost done</strong> - configure Akismet and say goodbye to spam"
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:51
+#, php-format
+msgid ""
+"Your web host or server administrator has disabled PHP&#8217;s "
+"<code>gethostbynamel</code> function.  <strong>Akismet cannot work correctly "
+"until this is fixed.</strong>  Please contact your web host or firewall "
+"administrator and give them <a href=\"%s\" target=\"_blank\">this "
+"information about Akismet&#8217;s system requirements</a>."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:56
+#, php-format
+msgid ""
+"Your firewall may be blocking Akismet from connecting to its API. Please "
+"contact your host and refer to <a href=\"%s\" target=\"_blank\">our guide "
+"about firewalls</a>."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:61
+#, php-format
+msgid ""
+"We cannot process your payment. Please <a href=\"%s\" target=\"_blank"
+"\">update your payment details</a>."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:66
+#, php-format
+msgid ""
+"Please visit your <a href=\"%s\" target=\"_blank\">Akismet account page</a> "
+"to reactivate your subscription."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:71
+#: wp-content/plugins/akismet/views/notice.php:81
+#, php-format
+msgid ""
+"Please contact <a href=\"%s\" target=\"_blank\">Akismet support</a> for "
+"assistance."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:76
+#, php-format
+msgid ""
+"You can help us fight spam and upgrade your account by <a href=\"%s\" target="
+"\"_blank\">contributing a token amount</a>."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:87
+#, php-format
+msgid ""
+"In 2012, Akismet began using subscription plans for all accounts (even free "
+"ones). A plan has not been assigned to your account, and we&#8217;d "
+"appreciate it if you&#8217;d <a href=\"%s\" target=\"_blank\">sign into your "
+"account</a> and choose one."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:89
+#: wp-content/plugins/akismet/views/notice.php:130
+#: wp-content/plugins/akismet/views/notice.php:137
+#, php-format
+msgid ""
+"Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with "
+"any questions."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:107
+#, php-format
+msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:121
+#, php-format
+msgid ""
+"The connection to akismet.com could not be established. Please refer to <a "
+"href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your "
+"server configuration."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:128
+#, php-format
+msgid ""
+"Your Pro subscription allows the use of Akismet on only one site. Please <a "
+"href=\"%s\" target=\"_blank\">purchase additional Pro subscriptions</a> or "
+"upgrade to an Enterprise subscription that allows the use of Akismet on "
+"unlimited sites."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/notice.php:135
+#, php-format
+msgid ""
+"To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an "
+"Enterprise subscription</a>, which covers an unlimited number of sites."
+msgstr ""
+
+#: wp-content/plugins/akismet/views/setup.php:3
+msgid "Set up your Akismet account"
+msgstr ""
+
+#: wp-content/plugins/block-advantges/src/block/block.js:16
+msgid "Advantages"
+msgstr ""
+
+#: wp-content/plugins/block-advantges/src/block/block.js:20
+msgid "block-advantages — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-advantges/src/block/block.js:21
+#: wp-content/plugins/block-contacts/src/block/block.js:21
+#: wp-content/plugins/block-filter/src/block/block.js:21
+#: wp-content/plugins/block-intro-section/src/block/block.js:16
+#: wp-content/plugins/block-intro/src/block/block.js:16
+#: wp-content/plugins/block-partners/src/block/block.js:21
+#: wp-content/plugins/block-section/src/block/block.js:20
+#: wp-content/plugins/block-slider/dist/src/block/block.js:21
+#: wp-content/plugins/block-slider/src/block/block.js:21
+#: wp-content/plugins/block-success-story/src/block/block.js:16
+#: wp-content/plugins/block-tab-content/src/block/block.js:22
+#: wp-content/plugins/block-tabs/src/block/block.js:22
+#: wp-content/plugins/innerBlock/block.js:21
+msgid "CGB Example"
+msgstr ""
+
+#: wp-content/plugins/block-advantges/src/block/block.js:22
+#: wp-content/plugins/block-contacts/src/block/block.js:22
+#: wp-content/plugins/block-filter/src/block/block.js:22
+#: wp-content/plugins/block-intro-section/src/block/block.js:17
+#: wp-content/plugins/block-intro/src/block/block.js:17
+#: wp-content/plugins/block-partners/src/block/block.js:22
+#: wp-content/plugins/block-section/src/block/block.js:21
+#: wp-content/plugins/block-slider/dist/src/block/block.js:22
+#: wp-content/plugins/block-slider/src/block/block.js:22
+#: wp-content/plugins/block-success-story/src/block/block.js:17
+#: wp-content/plugins/block-tab-content/src/block/block.js:23
+#: wp-content/plugins/block-tabs/src/block/block.js:23
+#: wp-content/plugins/innerBlock/block.js:22
+msgid "create-guten-block"
+msgstr ""
+
+#: wp-content/plugins/block-advantges/src/block/edit.js:64
+#: wp-content/plugins/block-contacts/src/block/edit.js:102
+msgid "Remove item"
+msgstr ""
+
+#: wp-content/plugins/block-advantges/src/block/edit.js:71
+#: wp-content/plugins/block-contacts/src/block/edit.js:109
+msgid "Add item"
+msgstr ""
+
+#: wp-content/plugins/block-contacts/src/block/block.js:16
+msgid "Contacts table"
+msgstr ""
+
+#: wp-content/plugins/block-contacts/src/block/block.js:20
+msgid "block-contacts — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-contacts/src/block/block.js:47
+msgid "Adress"
+msgstr "Адрес"
+
+#: wp-content/plugins/block-contacts/src/block/block.js:49
+msgid "On map"
+msgstr "На карте"
+
+#: wp-content/plugins/block-contacts/src/block/block.js:56
+msgid "Phone"
+msgstr "Телефон"
+
+#: wp-content/plugins/block-filter/src/block/block.js:16
+msgid "Filter"
+msgstr ""
+
+#: wp-content/plugins/block-filter/src/block/block.js:20
+msgid "block-filter — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-intro-section/src/block/block.js:11
+msgid "Intro section"
+msgstr ""
+
+#: wp-content/plugins/block-intro-section/src/block/block.js:15
+msgid "block-intro-section — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-intro-section/src/block/edit.js:47
+#: wp-content/plugins/block-intro/src/block/edit.js:58
+#: wp-content/plugins/block-partners/src/block/edit.js:79
+#: wp-content/plugins/block-section/src/block/block.js:83
+#: wp-content/plugins/block-section/src/block/block.js:103
+#: wp-content/plugins/block-slider/dist/src/block/edit.js:58
+#: wp-content/plugins/block-slider/src/block/edit.js:59
+#: wp-content/plugins/block-success-story/src/block/edit.js:85
+#: wp-content/plugins/block-success-story/src/block/edit.js:134
+#: wp-content/plugins/block-tab-content/src/block/edit.js:48
+#: wp-content/plugins/block-tab-content/src/block/edit.js:75
+msgid "bgImageId image"
+msgstr ""
+
+#: wp-content/plugins/block-intro-section/src/block/edit.js:55
+#: wp-content/plugins/block-intro/src/block/edit.js:66
+#: wp-content/plugins/block-partners/src/block/edit.js:88
+#: wp-content/plugins/block-section/src/block/block.js:111
+#: wp-content/plugins/block-slider/dist/src/block/edit.js:67
+#: wp-content/plugins/block-slider/src/block/edit.js:68
+msgid "Set image"
+msgstr ""
+
+#: wp-content/plugins/block-intro/src/block/block.js:11
+msgid "Intro (main page)"
+msgstr ""
+
+#: wp-content/plugins/block-intro/src/block/block.js:15
+msgid "block-intro — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-partners/src/block/block.js:16
+msgid "Partners"
+msgstr ""
+
+#: wp-content/plugins/block-partners/src/block/block.js:20
+msgid "block-partners — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-partners/src/block/edit.js:94
+#: wp-content/plugins/block-slider/dist/src/block/edit.js:73
+#: wp-content/plugins/block-slider/src/block/edit.js:74
+msgid "Remove image"
+msgstr ""
+
+#: wp-content/plugins/block-partners/src/block/edit.js:106
+#: wp-content/plugins/block-slider/dist/src/block/edit.js:85
+#: wp-content/plugins/block-slider/src/block/edit.js:86
+msgid "Add image"
+msgstr ""
+
+#: wp-content/plugins/block-section/src/block/block.js:15
+msgid "Section"
+msgstr ""
+
+#: wp-content/plugins/block-section/src/block/block.js:19
+msgid "block-section — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-section/src/block/block.js:91
+#: wp-content/plugins/block-success-story/src/block/edit.js:93
+#: wp-content/plugins/block-tab-content/src/block/edit.js:56
+msgid "Set background image"
+msgstr ""
+
+#: wp-content/plugins/block-slider/dist/src/block/block.js:16
+#: wp-content/plugins/block-slider/src/block/block.js:16
+#: wp-content/plugins/contact-form-7/modules/number.php:182
+msgid "Slider"
+msgstr ""
+
+#: wp-content/plugins/block-slider/dist/src/block/block.js:20
+#: wp-content/plugins/block-slider/src/block/block.js:20
+msgid "block-slider — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-success-story/src/block/block.js:11
+msgid "Success story"
+msgstr ""
+
+#: wp-content/plugins/block-success-story/src/block/block.js:15
+msgid "block-success-story — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-success-story/src/block/block.js:85
+msgid "Company"
+msgstr "Компания"
+
+#: wp-content/plugins/block-success-story/src/block/block.js:89
+msgid "Country"
+msgstr "Страна"
+
+#: wp-content/plugins/block-success-story/src/block/block.js:98
+msgid "Next story"
+msgstr "Следующая история"
+
+#: wp-content/plugins/block-success-story/src/block/edit.js:142
+msgid "Set next article image"
+msgstr ""
+
+#: wp-content/plugins/block-tab-content/src/block/block.js:17
+msgid "Tab content"
+msgstr ""
+
+#: wp-content/plugins/block-tab-content/src/block/block.js:21
+msgid "block-tab-content — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/block-tab-content/src/block/block.js:55
+msgid "Next section"
+msgstr "Следующий раздел"
+
+#: wp-content/plugins/block-tab-content/src/block/edit.js:83
+msgid "Set next tab image"
+msgstr ""
+
+#: wp-content/plugins/block-tabs/src/block/block.js:17
+msgid "Tabs"
+msgstr ""
+
+#: wp-content/plugins/block-tabs/src/block/block.js:21
+#: wp-content/plugins/innerBlock/block.js:20
+msgid "block-tabs — CGB Block"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:29
+#: wp-content/plugins/contact-form-7/modules/flamingo.php:201
+msgid "Contact Form 7"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:30
+msgid "Contact"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:40
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:38
+msgid "Edit Contact Form"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:41
+#: wp-content/plugins/contact-form-7/admin/admin.php:425
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:31
+msgid "Contact Forms"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:51
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:36
+msgid "Add New Contact Form"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:52
+#: wp-content/plugins/contact-form-7/admin/admin.php:432
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:47
+msgid "Add New"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:65
+#: wp-content/plugins/contact-form-7/admin/admin.php:516
+msgid "Integration with External API"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:66
+msgid "Integration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:145
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:151
+msgid "How to resolve?"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:152
+msgid "1 configuration error detected"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:153
+#, php-format
+msgid "%d configuration errors detected"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:154
+msgid "1 configuration error detected in this tab panel"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:155
+#, php-format
+msgid "%d configuration errors detected in this tab panel"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:158
+msgid "(configuration error)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:233
+#: wp-content/plugins/contact-form-7/admin/admin.php:297
+msgid "You are not allowed to edit this item."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:341
+msgid "You are not allowed to delete this item."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:346
+msgid "Error in deleting."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:441
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:464
+msgid "Search Contact Forms"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:556
+msgid "Contact form created."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:558
+msgid "Contact form saved."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:560
+msgid "Contact form deleted."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:574
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:185
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:252
+msgid "There was an error saving the contact form."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:605
+msgid "Configuration validation completed. No invalid contact form was found."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:654
+#, php-format
+msgid ""
+"<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> "
+"Please <a href=\"%3$s\">update WordPress</a> first."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/admin.php:678
+msgid "You are not allowed to edit this contact form."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:26
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:146
+msgid "Save"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:95
+msgid "Enter title here"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:118
+msgid ""
+"Copy this shortcode and paste it into your post, page, or text widget "
+"content:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:125
+msgid "You can also use this old-style shortcode:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:139
+msgid "Status"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:153
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:187
+msgid "Duplicate"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:168
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:90
+msgid "Delete"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:168
+msgid ""
+"You are about to delete this contact form.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:184
+msgid "Do you need help?"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:186
+msgid "Here are some available options to help solve your problems."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:190
+#, php-format
+msgid "%1$s and %2$s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:192
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:93
+msgid "https://contactform7.com/faq/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:193
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:93
+msgid "FAQ"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:196
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:92
+msgid "https://contactform7.com/docs/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:197
+msgid "docs"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:201
+msgid "https://wordpress.org/support/plugin/contact-form-7/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:202
+msgid "Support forums"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:205
+msgid "https://contactform7.com/custom-development/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:206
+msgid "Professional services"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:219
+#, php-format
+msgid "%1$s %2$s keys switch panels"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:224
+msgid "(left and right arrow)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:237
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:61
+msgid "Form"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:241
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:93
+msgid "Mail"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:245
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:222
+msgid "Messages"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:259
+#, php-format
+msgid "Additional Settings (%d)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/edit-contact-form.php:261
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:252
+msgid "Additional Settings"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:12
+msgid "Title"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:13
+msgid "Shortcode"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:14
+msgid "Author"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:15
+msgid "Date"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:122
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:169
+#: wp-content/themes/epio/classes/class-epio-walker-comment.php:89
+msgid "Edit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:234
+#: wp-content/themes/epio/classes/class-epio-walker-comment.php:78
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:236
+msgid "Y/m/d"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php:238
+msgid "g:i a"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/config-validator.php:41
+msgid "Validate Contact Form 7 Configuration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/config-validator.php:44
+msgid ""
+"Misconfiguration leads to mail delivery failure or other troubles. Validate "
+"your contact forms now."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/config-validator.php:66
+msgid "You are not allowed to validate configuration."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/config-validator.php:120
+msgid "Validate Configuration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/config-validator.php:130
+msgid "https://contactform7.com/configuration-validator-faq/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/config-validator.php:131
+msgid "FAQ about Configuration Validator"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:55
+msgid "https://contactform7.com/editing-form-template/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:56
+msgid "Editing form template"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:57
+#, php-format
+msgid "You can edit the form template here. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:84
+msgid "Mail (2)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:85
+msgid "Use Mail (2)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:119
+msgid "Mail (2) is an additional mail template often used as an autoresponder."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:128
+msgid "https://contactform7.com/setting-up-mail/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:129
+msgid "Setting up mail"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:130
+#, php-format
+msgid "You can edit the mail template here. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:135
+msgid "In the following fields, you can use these mail-tags:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:145
+msgid "To"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:154
+msgid "From"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:163
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:40
+msgid "Subject"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:172
+msgid "Additional headers"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:181
+msgid "Message body"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:186
+msgid "Exclude lines with blank mail-tags from output"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:188
+msgid "Use HTML content type"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:194
+msgid "File attachments"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:209
+msgid "https://contactform7.com/editing-messages/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:210
+msgid "Editing messages"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:211
+#, php-format
+msgid ""
+"You can edit messages used in various situations here. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:246
+msgid "https://contactform7.com/additional-settings/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:247
+msgid "Additional settings"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/editor.php:248
+#, php-format
+msgid "You can add customization code snippets here. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:21
+msgid "Available Actions"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:35
+msgid "Form-tags"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:40
+msgid "Mail-tags"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:61
+msgid ""
+"On this screen, you can manage contact forms provided by Contact Form 7. You "
+"can manage an unlimited number of contact forms. Each contact form has a "
+"unique ID and Contact Form 7 shortcode ([contact-form-7 ...]). To insert a "
+"contact form into a post or a text widget, insert the shortcode into the "
+"target."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:63
+msgid ""
+"Hovering over a row in the contact forms list will display action links that "
+"allow you to manage your contact form. You can perform the following actions:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:64
+msgid ""
+"<strong>Edit</strong> - Navigates to the editing screen for that contact "
+"form. You can also reach that screen by clicking on the contact form title."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:65
+msgid ""
+"<strong>Duplicate</strong> - Clones that contact form. A cloned contact form "
+"inherits all content from the original, but has a different ID."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:67
+msgid ""
+"On this screen, you can edit a contact form. A contact form is comprised of "
+"the following components:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:68
+msgid ""
+"<strong>Title</strong> is the title of a contact form. This title is only "
+"used for labeling a contact form, and can be edited."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:69
+msgid ""
+"<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, "
+"which is allowed inside a form element. You can also use Contact Form "
+"7&#8217;s form-tags here."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:70
+msgid ""
+"<strong>Mail</strong> manages a mail template (headers and message body) "
+"that this contact form will send when users submit it. You can use Contact "
+"Form 7&#8217;s mail-tags here."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:71
+msgid ""
+"<strong>Mail (2)</strong> is an additional mail template that works similar "
+"to Mail. Mail (2) is different in that it is sent only when Mail has been "
+"sent successfully."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:72
+msgid ""
+"In <strong>Messages</strong>, you can edit various types of messages used "
+"for this contact form. These messages are relatively short messages, like a "
+"validation error message you see when you leave a required field blank."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:73
+msgid ""
+"<strong>Additional Settings</strong> provides a place where you can "
+"customize the behavior of this contact form by adding code snippets."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:75
+msgid ""
+"A form-tag is a short code enclosed in square brackets used in a form "
+"content. A form-tag generally represents an input field, and its components "
+"can be separated into four parts: type, name, options, and values. Contact "
+"Form 7 supports several types of form-tags including text fields, number "
+"fields, date fields, checkboxes, radio buttons, menus, file-uploading "
+"fields, CAPTCHAs, and quiz fields."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:76
+msgid ""
+"While form-tags have a comparatively complex syntax, you don&#8217;t need to "
+"know the syntax to add form-tags because you can use the straightforward tag "
+"generator (<strong>Generate Tag</strong> button on this screen)."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:78
+msgid ""
+"A mail-tag is also a short code enclosed in square brackets that you can use "
+"in every Mail and Mail (2) field. A mail-tag represents a user input value "
+"through an input field of a corresponding form-tag."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:79
+msgid ""
+"There are also special mail-tags that have specific names, but don&#8217;t "
+"have corresponding form-tags. They are used to represent meta information of "
+"form submissions like the submitter&#8217;s IP address or the URL of the "
+"page."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:81
+msgid ""
+"On this screen, you can manage services that are available through Contact "
+"Form 7. Using API will allow you to collaborate with any services that are "
+"available."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:82
+msgid ""
+"You may need to first sign up for an account with the service that you plan "
+"to use. When you do so, you would need to authorize Contact Form 7 to access "
+"the service with your account."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:83
+msgid ""
+"Any information you provide will not be shared with service providers "
+"without your authorization."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:91
+msgid "For more information:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:92
+msgid "Docs"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:94
+msgid "https://contactform7.com/support/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/help-tabs.php:94
+msgid "Support"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/tag-generator.php:46
+#, php-format
+msgid "Form-tag Generator: %s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:16
+msgid "Dismiss"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:22
+msgid "Getting spammed? You have protection."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:24
+msgid ""
+"Spammers target everything; your contact forms aren&#8217;t an exception. "
+"Before you get spammed, protect your contact forms with the powerful anti-"
+"spam features Contact Form 7 provides."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:29
+#, php-format
+msgid ""
+"Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks "
+"annoying spambots. Plus, using %3$s, you can block messages containing "
+"specified keywords or those sent from specified IP addresses."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:31
+msgid "https://contactform7.com/spam-filtering-with-akismet/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:35
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:194
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:452
+msgid "https://contactform7.com/recaptcha/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:36
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:228
+msgid "reCAPTCHA"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:39
+msgid "https://contactform7.com/comment-blacklist/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:40
+msgid "disallowed list"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:48
+msgid "Contact Form 7 needs your support."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:50
+msgid ""
+"It is hard to continue development and support for this plugin without "
+"contributions from users like you."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:55
+#, php-format
+msgid ""
+"If you enjoy using Contact Form 7 and find it useful, please consider %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:57
+msgid "https://contactform7.com/donate/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:58
+msgid "making a donation"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:63
+msgid ""
+"Your donation will help encourage and support the plugin&#8217;s continued "
+"development and better user support."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:67
+msgid "Before you cry over spilt mail&#8230;"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:69
+msgid ""
+"Contact Form 7 doesn&#8217;t store submitted messages anywhere. Therefore, "
+"you may lose important messages forever if your mail server has issues or "
+"you make a mistake in mail configuration."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:74
+#, php-format
+msgid ""
+"Install a message storage plugin before this happens to you. %s saves all "
+"messages through contact forms into the database. Flamingo is a free "
+"WordPress plugin created by the same author as Contact Form 7."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:76
+msgid "https://contactform7.com/save-submitted-messages-with-flamingo/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php:77
+msgid "Flamingo"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:20
+msgid "https://contactform7.com/configuration-errors/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:136
+msgid "There is a possible empty field."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:138
+msgid "Invalid mailbox syntax is used."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:140
+msgid "Sender email address does not belong to the site domain."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:142
+msgid "HTML tags are used in a message."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:144
+msgid "Multiple form controls are in a single label element."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:146
+msgid "There are invalid mail header fields."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:148
+msgid "Deprecated settings are used."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:401
+msgid "Unavailable names (%names%) are used for form controls."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:418
+msgid "Unavailable HTML elements are used in the form template."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:507
+msgid "Invalid mailbox syntax is used in the %name% field."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:587
+msgid "The total size of attachment files is too large."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:631
+msgid "Attachment file does not exist at %path%."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/config-validator.php:649
+msgid "It is not allowed to use files outside the wp-content directory."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-functions.php:142
+msgid "Not Found"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:37
+msgid "(optional)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:38
+msgid "Your name"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:39
+msgid "Your email"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:41
+msgid "Your message"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:42
+msgid "Submit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:64
+#, php-format
+msgid "From: %s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:69
+#, php-format
+msgid "Subject: %s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:72
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:106
+msgid "Message Body:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:77
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:111
+#, php-format
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:162
+msgid "Sender's message was sent successfully"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:164
+msgid "Thank you for your message. It has been sent."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:169
+msgid "Sender's message failed to send"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:171
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:185
+msgid "There was an error trying to send your message. Please try again later."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:176
+msgid "Validation errors occurred"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:178
+msgid "One or more fields have an error. Please check and try again."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:183
+msgid "Submission was referred to as spam"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:190
+msgid "There are terms that the sender must accept"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:192
+msgid "You must accept the terms and conditions before sending your message."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:197
+msgid "There is a field that the sender must fill in"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:199
+msgid "The field is required."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:204
+msgid ""
+"There is a field with input that is longer than the maximum allowed length"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:206
+msgid "The field is too long."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:211
+msgid ""
+"There is a field with input that is shorter than the minimum allowed length"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form-template.php:213
+msgid "The field is too short."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:32
+msgid "Contact Form"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:80
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:263
+msgid "Untitled"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:175
+#, php-format
+msgid ""
+"<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is "
+"<strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:326
+#: wp-content/plugins/contact-form-7/includes/contact-form.php:754
+msgid "This contact form is available only for logged in users."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:115
+msgid "Uploading a file fails for any reason"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:116
+msgid "There was an unknown error uploading the file."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:120
+msgid "Uploaded file is not allowed for file type"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:121
+msgid "You are not allowed to upload files of this type."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:125
+msgid "Uploaded file is too large"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:126
+msgid "The file is too big."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:130
+msgid "Uploading a file fails for PHP error"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:131
+msgid "There was an error uploading the file."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/file.php:358
+#, php-format
+msgid ""
+"This contact form has file uploading fields, but the temporary folder for "
+"the files (%s) does not exist or is not writable. You can create the folder "
+"or change its permission manually."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/functions.php:348
+#: wp-content/plugins/contact-form-7/includes/functions.php:374
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use "
+"%3$s instead."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/functions.php:390
+#, php-format
+msgid "(This message was added in Contact Form 7 version %s.)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/functions.php:398
+#, php-format
+msgid "%1$s was called incorrectly. %2$s %3$s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/functions.php:429
+#, php-format
+msgid "HTTP Response: %1$s %2$s %3$s from %4$s"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:19
+msgid "You are not allowed to access contact forms."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:33
+msgid "You are not allowed to create a contact form."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:55
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:71
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:87
+msgid "You are not allowed to access the requested contact form."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:173
+msgid "Cannot create existing contact form."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:219
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:241
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:286
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:316
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:370
+msgid "The requested contact form was not found."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/rest-api.php:295
+msgid "There was an error deleting the contact form."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/special-mail-tags.php:22
+#: wp-content/plugins/contact-form-7/includes/special-mail-tags.php:97
+#: wp-content/plugins/contact-form-7/includes/special-mail-tags.php:164
+#: wp-content/plugins/contact-form-7/includes/special-mail-tags.php:206
+#: wp-content/plugins/contact-form-7/modules/flamingo.php:285
+msgid ""
+"The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag "
+"class."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/submission.php:89
+msgid "Sending mail has been aborted."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/submission.php:412
+msgid "User-Agent string is unnaturally short."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/includes/submission.php:421
+msgid "Submitted nonce is invalid."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/load.php:156
+#, php-format
+msgid "Contact form %d"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:206
+msgid "Consented"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:208
+msgid "Not consented"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:241
+msgid "acceptance"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:249
+#, php-format
+msgid ""
+"Generate a form-tag for an acceptance checkbox. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:251
+msgid "https://contactform7.com/acceptance-checkbox/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:251
+msgid "Acceptance checkbox"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:261
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:258
+#: wp-content/plugins/contact-form-7/modules/date.php:194
+#: wp-content/plugins/contact-form-7/modules/file.php:144
+#: wp-content/plugins/contact-form-7/modules/number.php:191
+#: wp-content/plugins/contact-form-7/modules/quiz.php:227
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:293
+#: wp-content/plugins/contact-form-7/modules/select.php:190
+#: wp-content/plugins/contact-form-7/modules/text.php:266
+#: wp-content/plugins/contact-form-7/modules/textarea.php:170
+msgid "Name"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:266
+msgid "Condition"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:271
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:274
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:263
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:266
+#: wp-content/plugins/contact-form-7/modules/select.php:195
+#: wp-content/plugins/contact-form-7/modules/select.php:198
+msgid "Options"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:275
+msgid "Make this checkbox optional"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:281
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:279
+#: wp-content/plugins/contact-form-7/modules/date.php:223
+#: wp-content/plugins/contact-form-7/modules/file.php:159
+#: wp-content/plugins/contact-form-7/modules/number.php:220
+#: wp-content/plugins/contact-form-7/modules/quiz.php:243
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:303
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:318
+#: wp-content/plugins/contact-form-7/modules/select.php:208
+#: wp-content/plugins/contact-form-7/modules/submit.php:70
+#: wp-content/plugins/contact-form-7/modules/text.php:306
+#: wp-content/plugins/contact-form-7/modules/textarea.php:181
+msgid "Id attribute"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:286
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:284
+#: wp-content/plugins/contact-form-7/modules/date.php:228
+#: wp-content/plugins/contact-form-7/modules/file.php:164
+#: wp-content/plugins/contact-form-7/modules/number.php:225
+#: wp-content/plugins/contact-form-7/modules/quiz.php:248
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:308
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:323
+#: wp-content/plugins/contact-form-7/modules/select.php:213
+#: wp-content/plugins/contact-form-7/modules/submit.php:75
+#: wp-content/plugins/contact-form-7/modules/text.php:311
+#: wp-content/plugins/contact-form-7/modules/textarea.php:186
+msgid "Class attribute"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/acceptance.php:299
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:297
+#: wp-content/plugins/contact-form-7/modules/date.php:240
+#: wp-content/plugins/contact-form-7/modules/file.php:177
+#: wp-content/plugins/contact-form-7/modules/number.php:237
+#: wp-content/plugins/contact-form-7/modules/quiz.php:261
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:335
+#: wp-content/plugins/contact-form-7/modules/select.php:226
+#: wp-content/plugins/contact-form-7/modules/submit.php:88
+#: wp-content/plugins/contact-form-7/modules/text.php:324
+#: wp-content/plugins/contact-form-7/modules/textarea.php:199
+msgid "Insert Tag"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/akismet.php:62
+msgid "Akismet returns a spam response."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:216
+msgid "checkboxes"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:218
+msgid "radio buttons"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:231
+#, php-format
+msgid ""
+"Generate a form-tag for a group of checkboxes. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:233
+#, php-format
+msgid ""
+"Generate a form-tag for a group of radio buttons. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:236
+#: wp-content/plugins/contact-form-7/modules/select.php:170
+msgid "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:236
+#: wp-content/plugins/contact-form-7/modules/select.php:170
+msgid "Checkboxes, radio buttons and menus"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:247
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:250
+#: wp-content/plugins/contact-form-7/modules/date.php:184
+#: wp-content/plugins/contact-form-7/modules/date.php:187
+#: wp-content/plugins/contact-form-7/modules/file.php:134
+#: wp-content/plugins/contact-form-7/modules/file.php:137
+#: wp-content/plugins/contact-form-7/modules/number.php:176
+#: wp-content/plugins/contact-form-7/modules/number.php:179
+#: wp-content/plugins/contact-form-7/modules/select.php:180
+#: wp-content/plugins/contact-form-7/modules/select.php:183
+#: wp-content/plugins/contact-form-7/modules/text.php:256
+#: wp-content/plugins/contact-form-7/modules/text.php:259
+#: wp-content/plugins/contact-form-7/modules/textarea.php:160
+#: wp-content/plugins/contact-form-7/modules/textarea.php:163
+msgid "Field type"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:251
+#: wp-content/plugins/contact-form-7/modules/date.php:188
+#: wp-content/plugins/contact-form-7/modules/file.php:138
+#: wp-content/plugins/contact-form-7/modules/number.php:185
+#: wp-content/plugins/contact-form-7/modules/select.php:184
+#: wp-content/plugins/contact-form-7/modules/text.php:260
+#: wp-content/plugins/contact-form-7/modules/textarea.php:164
+msgid "Required field"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:268
+#: wp-content/plugins/contact-form-7/modules/select.php:200
+msgid "One option per line."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:269
+msgid "Put a label first, a checkbox last"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:270
+msgid "Wrap each item with label element"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:272
+msgid "Make checkboxes exclusive"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/checkbox.php:302
+#: wp-content/plugins/contact-form-7/modules/date.php:245
+#: wp-content/plugins/contact-form-7/modules/number.php:242
+#: wp-content/plugins/contact-form-7/modules/select.php:231
+#: wp-content/plugins/contact-form-7/modules/text.php:329
+#: wp-content/plugins/contact-form-7/modules/textarea.php:204
+#, php-format
+msgid ""
+"To use the value input through this field in a mail field, you need to "
+"insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:9
+msgid "Email marketing"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:236
+msgid "Constant Contact"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:463
+msgid "Connection established."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:469
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:438
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:125
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:133
+msgid "Error"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:470
+msgid "Failed to establish connection. Please double-check your configuration."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:476
+msgid "Configuration updated."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:484
+#, php-format
+msgid ""
+"The Constant Contact integration module allows you to send contact data "
+"collected through your contact forms to the Constant Contact API. You can "
+"create reliable email subscription services in a few easy steps. For "
+"details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:487
+msgid "https://contactform7.com/constant-contact-integration/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:490
+msgid "Constant Contact integration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:497
+msgid "This site is connected to the Constant Contact API."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:507
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:470
+msgid "Setup Integration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:519
+msgid "API Key"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:536
+msgid "App Secret"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:553
+msgid "Redirect URI"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:560
+msgid "Set this URL as the redirect URI."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:573
+msgid "Connect to the Constant Contact API"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/constant-contact.php:591
+msgid "Select lists to which newly added contacts are to belong."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:141
+msgid "Date format that the sender entered is invalid"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:142
+msgid "The date format is incorrect."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:146
+msgid "Date is earlier than minimum limit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:147
+msgid "The date is before the earliest one allowed."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:151
+msgid "Date is later than maximum limit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:152
+msgid "The date is after the latest one allowed."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:164
+msgid "date"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:172
+#, php-format
+msgid "Generate a form-tag for a date input field. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:174
+msgid "https://contactform7.com/date-field/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:174
+msgid "Date field"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:199
+#: wp-content/plugins/contact-form-7/modules/number.php:196
+#: wp-content/plugins/contact-form-7/modules/text.php:271
+#: wp-content/plugins/contact-form-7/modules/textarea.php:175
+msgid "Default value"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:201
+#: wp-content/plugins/contact-form-7/modules/number.php:198
+#: wp-content/plugins/contact-form-7/modules/text.php:273
+#: wp-content/plugins/contact-form-7/modules/textarea.php:177
+msgid "Use this text as the placeholder of the field"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:205
+#: wp-content/plugins/contact-form-7/modules/date.php:208
+#: wp-content/plugins/contact-form-7/modules/number.php:202
+#: wp-content/plugins/contact-form-7/modules/number.php:205
+msgid "Range"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:210
+#: wp-content/plugins/contact-form-7/modules/number.php:207
+msgid "Min"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/date.php:215
+#: wp-content/plugins/contact-form-7/modules/number.php:212
+msgid "Max"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/disallowed-list.php:32
+msgid "Disallowed words are used."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/disallowed-list.php:35
+#, php-format
+msgid "Disallowed words (%s) are used."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:114
+msgid "file"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:122
+#, php-format
+msgid ""
+"Generate a form-tag for a file uploading field. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:124
+msgid "https://contactform7.com/file-uploading-and-attachment/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:124
+msgid "File uploading and attachment"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:149
+msgid "File size limit (bytes)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:154
+msgid "Acceptable file types"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/file.php:182
+#, php-format
+msgid ""
+"To attach the file uploaded through this field to mail, you need to insert "
+"the corresponding mail-tag (%s) into the File Attachments field on the Mail "
+"tab."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:133
+msgid "Number format that the sender entered is invalid"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:134
+msgid "The number format is invalid."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:138
+msgid "Number is smaller than minimum limit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:139
+msgid "The number is smaller than the minimum allowed."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:143
+msgid "Number is larger than maximum limit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:144
+msgid "The number is larger than the maximum allowed."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:156
+msgid "number"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:164
+#, php-format
+msgid ""
+"Generate a form-tag for a field for numeric value input. For more details, "
+"see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:166
+msgid "https://contactform7.com/number-fields/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:166
+msgid "Number fields"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/number.php:181
+msgid "Spinbox"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:191
+msgid "Sender doesn't enter the correct answer to the quiz"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:193
+msgid "The answer to the quiz is incorrect."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:207
+msgid "quiz"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:215
+#, php-format
+msgid ""
+"Generate a form-tag for a question-answer pair. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:217
+msgid "https://contactform7.com/quiz/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:217
+msgid "Quiz"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:232
+#: wp-content/plugins/contact-form-7/modules/quiz.php:235
+msgid "Questions and answers"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/quiz.php:237
+msgid ""
+"One pipe-separated question-answer pair (e.g. The capital of Brazil?|Rio) "
+"per line."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:36
+#, php-format
+msgid "To use CAPTCHA, you need %s plugin installed."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:235
+msgid "The code that sender entered does not match the CAPTCHA"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:237
+msgid "Your entered code is incorrect."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:256
+msgid "CAPTCHA (Really Simple CAPTCHA)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:270
+#, php-format
+msgid "To use CAPTCHA, you first need to install and activate %s plugin."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:281
+#, php-format
+msgid ""
+"Generate form-tags for a CAPTCHA image and corresponding response input "
+"field. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:283
+msgid "https://contactform7.com/captcha/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:283
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:9
+msgid "CAPTCHA"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:300
+msgid "Image settings"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:315
+msgid "Input field settings"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:370
+#, php-format
+msgid ""
+"This contact form contains CAPTCHA fields, but the temporary folder for the "
+"files (%s) does not exist or is not writable. You can create the folder or "
+"change its permission manually."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/really-simple-captcha.php:377
+msgid ""
+"This contact form contains CAPTCHA fields, but the necessary libraries (GD "
+"and FreeType) are not available on your server."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:117
+msgid "reCAPTCHA response token is empty."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:123
+#, php-format
+msgid "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:192
+#, php-format
+msgid ""
+"API keys for reCAPTCHA v3 are different from those for v2; keys for v2 "
+"don&#8217;t work with the v3 API. You need to register your sites again to "
+"get new keys for v3. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:195
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:453
+msgid "reCAPTCHA (v3)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:439
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:134
+msgid "Invalid key values."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:444
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:141
+msgid "Settings saved."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:450
+#, php-format
+msgid ""
+"reCAPTCHA protects you against spam and other types of automated abuse. With "
+"Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive "
+"form submissions by spam bots. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:460
+msgid "reCAPTCHA is active on this site."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:485
+msgid "Site Key"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:502
+msgid "Secret Key"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/recaptcha/recaptcha.php:531
+msgid "Save Changes"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/select.php:161
+msgid "drop-down menu"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/select.php:168
+#, php-format
+msgid "Generate a form-tag for a drop-down menu. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/select.php:201
+msgid "Allow multiple selections"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/select.php:202
+msgid "Insert a blank item as the first option"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:90
+#, php-format
+msgid "You can set up the Sendinblue integration here. For details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:93
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:150
+msgid "https://contactform7.com/sendinblue-integration/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:94
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:151
+msgid "Sendinblue integration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:102
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:296
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:30
+msgid "Sendinblue"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:113
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:122
+msgid "Contact lists"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:131
+msgid "Add form submitters to your contact lists"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:148
+msgid "Select lists to which contacts are added:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:172
+msgid "You have no contact list yet."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:187
+msgid "Manage your contact lists"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:188
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:282
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:198
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:207
+msgid "Welcome email"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:216
+msgid "Send a welcome email to new contacts"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:233
+msgid "Select an email template:"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:246
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:266
+msgid "You have no active email template yet."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/contact-form-properties.php:281
+msgid "Manage your email templates"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:126
+msgid ""
+"You have not been authenticated. Make sure the provided API key is correct."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:148
+#, php-format
+msgid ""
+"Store and organize your contacts while protecting user privacy on "
+"Sendinblue, the leading CRM & email marketing platform in Europe. Sendinblue "
+"offers unlimited contacts and advanced marketing features. For details, see "
+"%s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:158
+msgid "Sendinblue is active on this site."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:168
+msgid "Setup integration"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:182
+msgid "API key"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/sendinblue/service.php:207
+msgid "Save changes"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/submit.php:26
+msgid "Send"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/submit.php:46
+msgid "submit"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/submit.php:53
+#, php-format
+msgid "Generate a form-tag for a submit button. For more details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/submit.php:55
+msgid "https://contactform7.com/submit-button/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/submit.php:55
+msgid "Submit button"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/submit.php:65
+msgid "Label"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:188
+msgid "Email address that the sender entered is invalid"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:190
+msgid "The e-mail address entered is invalid."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:195
+msgid "URL that the sender entered is invalid"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:197
+msgid "The URL is invalid."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:202
+msgid "Telephone number that the sender entered is invalid"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:204
+msgid "The telephone number is invalid."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:218
+msgid "text"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:220
+msgid "email"
+msgstr "Почта"
+
+#: wp-content/plugins/contact-form-7/modules/text.php:222
+msgid "URL"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:224
+msgid "tel"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:237
+#, php-format
+msgid ""
+"Generate a form-tag for a single-line plain text input field. For more "
+"details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:239
+#, php-format
+msgid ""
+"Generate a form-tag for a single-line email address input field. For more "
+"details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:241
+#, php-format
+msgid ""
+"Generate a form-tag for a single-line URL input field. For more details, see "
+"%s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:243
+#, php-format
+msgid ""
+"Generate a form-tag for a single-line telephone number input field. For more "
+"details, see %s."
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:246
+#: wp-content/plugins/contact-form-7/modules/textarea.php:150
+msgid "https://contactform7.com/text-fields/"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:246
+#: wp-content/plugins/contact-form-7/modules/textarea.php:150
+msgid "Text fields"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:286
+msgid "This field requires author's name"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:291
+msgid "This field requires author's email address"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/text.php:296
+msgid "This field requires author's URL"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/textarea.php:140
+msgid "text area"
+msgstr ""
+
+#: wp-content/plugins/contact-form-7/modules/textarea.php:148
+#, php-format
+msgid ""
+"Generate a form-tag for a multi-line text input field. For more details, see "
+"%s."
+msgstr ""
+
+#: wp-content/plugins/hello.php:62
+msgid "Quote from Hello Dolly song, by Jerry Herman:"
+msgstr ""
+
+#: wp-content/plugins/innerBlock/block.js:16
+msgid "inner"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:106
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:115
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:166
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:170
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:179
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:107
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:150
+msgid "All done."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:150
+msgid "Have fun!"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:151
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:171
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:187
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:212
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:238
+msgid "Assign Authors"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:239
+msgid ""
+"To make it simpler for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site, such as your primary administrator account."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:241
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:251
+msgid "Import Attachments"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:254
+msgid "Download and import file attachments"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:271
+msgid "Import author:"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:283
+msgid "or create new user with login name:"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:286
+msgid "as a new user:"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:296
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:298
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:306
+msgid "- Select -"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:360
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:412
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:457
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:512
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:878
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:885
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:948
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:961
+msgid "Invalid file type"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1000
+msgid "Could not create temporary file."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1019
+#, php-format
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1035
+#, php-format
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1047
+msgid "Remote server did not respond"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1054
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1059
+msgid "Downloaded file has incorrect size"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1065
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1097
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1112
+msgid "The uploaded file could not be moved"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1224
+msgid "Import WordPress"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1231
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1246
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/class-wp-import.php:1247
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-regex.php:96
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:41
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:46
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-xml.php:48
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:29
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser-simplexml.php:37
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/parsers/class-wxr-parser.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: wp-content/plugins/wordpress-importer/wordpress-importer.php:58
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: wp-content/themes/epio/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: wp-content/themes/epio/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: wp-content/themes/epio/classes/class-epio-walker-comment.php:59
+#, php-format
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr ""
+
+#: wp-content/themes/epio/classes/class-epio-walker-comment.php:96
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content/themes/epio/classes/class-epio-walker-comment.php:98
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: wp-content/themes/epio/comments.php:33
+msgid "Join the Conversation"
+msgstr ""
+
+#: wp-content/themes/epio/comments.php:35
+#: wp-content/themes/epio/comments.php:105
+#: wp-content/themes/epio/comments.php:107
+msgid "Leave a comment"
+msgstr ""
+
+#: wp-content/themes/epio/comments.php:92
+#: wp-content/themes/epio/comments.php:95
+#: wp-content/themes/epio/comments.php:96
+msgid "Comments"
+msgstr ""
+
+#: wp-content/themes/epio/comments.php:95
+msgid "Previous"
+msgstr ""
+
+#: wp-content/themes/epio/comments.php:96
+msgid "Next"
+msgstr ""
+
+#: wp-content/themes/epio/comments.php:116
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/epio/footer.php:27
+msgid "Segments"
+msgstr ""
+
+#: wp-content/themes/epio/footer.php:41
+msgid "Services"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:59
+msgid "Primary"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:60
+msgid "Footer Menu"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:61
+msgid "Footer segments"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:62
+msgid "Footer services"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:63
+msgid "Social Links Menu"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:120
+msgid "Small"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:121
+msgid "S"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:126
+msgid "Normal"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:127
+msgid "M"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:132
+msgid "Large"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:133
+msgid "L"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:138
+msgid "Huge"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:139
+msgid "XL"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:151
+msgid "Dark Gray"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:156
+msgid "Light Gray"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:161
+msgid "White"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:186
+msgid "Footer"
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:188
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: wp-content/themes/epio/functions.php:217
+#: wp-content/themes/epio/template-parts/content/content-excerpt.php:26
+#: wp-includes/blocks/latest-posts.php:171
+msgid "Show"
+msgstr "Перейти"
+
+#: wp-content/themes/epio/header.php:49
+msgid "What are you looking for?"
+msgstr "Что вы ищите?"
+
+#: wp-content/themes/epio/image.php:50
+#: wp-content/themes/epio/template-parts/content/content-main.php:32
+#: wp-content/themes/epio/template-parts/content/content-page.php:22
+#: wp-content/themes/epio/template-parts/content/content-single.php:40
+#: wp-content/themes/epio/template-parts/content/content.php:49
+msgid "Pages:"
+msgstr ""
+
+#: wp-content/themes/epio/image.php:54
+msgid "Page"
+msgstr ""
+
+#: wp-content/themes/epio/inc/back-compat.php:40
+#: wp-content/themes/epio/inc/back-compat.php:55
+#: wp-content/themes/epio/inc/back-compat.php:76
+#, php-format
+msgid ""
+"Twenty Nineteen requires at least WordPress version 4.7. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: wp-content/themes/epio/inc/customizer.php:53
+msgid "Primary Color"
+msgstr ""
+
+#: wp-content/themes/epio/inc/customizer.php:78
+msgid "Apply a custom color for buttons, links, featured images, etc."
+msgstr ""
+
+#: wp-content/themes/epio/inc/customizer.php:98
+msgid "Apply a filter to featured images using the primary color"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:74
+msgid "Category Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:76
+msgid "Tag Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:78
+msgid "Author Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:80
+msgid "Yearly Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:82
+msgid "Monthly Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:84
+msgid "Daily Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:86
+msgid "Post Type Archives: "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-functions.php:92
+msgid "Archives:"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:46
+msgid "Posted by"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:63
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:86
+#: wp-content/themes/epio/inc/template-tags.php:98
+msgid ", "
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:92
+msgid "Posted in"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:104
+msgid "Tags:"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:120
+#: wp-content/themes/epio/template-parts/header/entry-header.php:22
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:230
+msgid "Newer posts"
+msgstr ""
+
+#: wp-content/themes/epio/inc/template-tags.php:234
+msgid "Older posts"
+msgstr ""
+
+#: wp-content/themes/epio/search.php:21
+msgid "Showing all search results for: "
+msgstr "Показаны все результаты по запросу:"
+
+#: wp-content/themes/epio/template-parts/content/content-main.php:19
+#: wp-content/themes/epio/template-parts/content/content.php:36
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/content/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/content/content-none.php:26
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/content/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/content/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/content/content-single.php:27
+#, php-format
+msgid "Перейти<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/navigation.php:38
+msgid "Previous company"
+msgstr "Предыдущая компания"
+
+#: wp-content/themes/epio/template-parts/navigation.php:54
+msgid "Next company"
+msgstr "Следующая компания"
+
+#: wp-content/themes/epio/template-parts/post/author-bio.php:17
+#, php-format
+msgid "Published by %s"
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr ""
+
+#: wp-content/themes/epio/template-parts/post/discussion-meta.php:18
+msgid "No comments"
+msgstr ""
+
+#: wp-includes/blocks/latest-posts.php:107
+msgid "(no title)"
+msgstr ""
+
+#: wp-includes/blocks/latest-posts.php:137
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: wp-includes/blocks/latest-posts.php:161
+#: wp-includes/blocks/latest-posts.php:183
+msgid "This content is password protected."
+msgstr ""

@@ -1,0 +1,23 @@
+.social {
+
+    &_link {
+        margin: 0 42px 0 0;
+        transition: .2s $easing opacity;
+        @include tablet {
+            margin: 0 0 0 42px;
+        }
+
+        &:hover {
+            opacity: .6;
+        }
+        &:active {
+            opacity: .8;
+        }
+    }
+    &_icon {
+        height: 20px;
+        @include tablet {
+            height: 23px;
+        }
+    }
+}

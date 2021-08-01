@@ -1,0 +1,49 @@
+.search {
+    z-index: 2;
+
+    &_icon {
+        background: url(#{$img}/search.svg) no-repeat center / 17px auto;
+        padding: 0 5px;
+        width: 38px;
+        height: 20px;
+        line-height: 0;
+        @include tablet {
+            margin: 0 0 0 37px;
+        }
+
+        .fixed-header &,
+        .search-opened &,
+        .search-results & {
+            filter: invert(1);
+        }
+    }
+    &_popup {
+        background: $cLight;
+        padding: 28px 22px 35px;
+        position: absolute;
+        right: 0;
+        top: 95px;
+        opacity: 0;
+        pointer-events: none;
+        transition: .2s $easing opacity;
+        @include tablet {
+            width: 550px;
+        }
+
+        .search-opened &  {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+    &_input[type] {
+        @include placeholder-color(#B0ABAB);
+        background: url(#{$img}/search-dark.svg) no-repeat left center / 17px auto;
+        color: $color;
+        padding: 16px 30px;
+        border-bottom: 1px solid #B0ABAB;
+
+        &:focus {
+            color: $color;
+        }
+    }
+}

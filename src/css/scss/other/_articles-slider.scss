@@ -1,0 +1,9 @@
+.articles-slider {
+    display: flex;
+    counter-reset: slider-posts;
+    user-select: none;
+
+    & > div {
+        counter-increment: slider-posts;
+    }
+}

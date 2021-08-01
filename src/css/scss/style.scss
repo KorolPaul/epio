@@ -1,0 +1,77 @@
+/*
+Theme Name: EPIO
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Author: Pavel Korol
+Author URI: https://wordpress.org/
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentynineteen
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
+*/
+
+@charset "UTF-8";
+
+@import  "const";
+@import  "mixins";
+@import  "placeholders";
+
+/* basic */
+@import  "basic/normalize";
+@import  "basic/fonts";
+@import  "basic/default";
+
+/*Form elements*/
+@import  "form-elements/button";
+@import  "form-elements/input-text";
+@import  "form-elements/textarea";
+@import  "form-elements/checkbox";
+@import  "form-elements/label";
+@import  "form-elements/form";
+
+/*layout*/
+@import  "layout/headings";
+@import  "layout/header";
+@import  "layout/footer";
+@import  "layout/menu";
+@import  "layout/logo";
+@import  "layout/content";
+@import  "layout/lang";
+@import  "layout/popup";
+@import  "layout/section";
+@import  "layout/menu-toggle";
+@import  "layout/tabs";
+
+/* other */
+@import  "other/search";
+@import  "other/social";
+@import  "other/intro";
+@import  "other/article-preview";
+@import  "other/partners";
+@import  "other/links-list";
+@import  "other/grid-articles";
+@import  "other/blog-entry";
+@import  "other/more-link";
+@import  "other/join-link";
+@import  "other/button-link";
+@import  "other/marked-text";
+@import  "other/marked-columns";
+@import  "other/accordion";
+@import  "other/numeric-list";
+@import  "other/articles-slider";
+@import  "other/posts-grid";
+@import  "other/carousel-list";
+@import  "other/next-article";
+@import  "other/slider";
+@import  "other/grid";
+@import  "other/meta-links";
+@import  "other/advantages";
+@import  "other/pagination-single-inner";
+@import  "other/contacts";
+@import  "other/search-results";
+
+/* plugins */
+@import  "plugins/tiny-slider";

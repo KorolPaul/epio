@@ -1,0 +1,142 @@
+.footer {
+    background-color: $cYellow;
+    padding: 50px 0 80px;
+    color: $color;
+    @include desktop {
+        padding: 110px 0 90px;
+    }
+
+    &_holder {
+        @include layout;
+        @include desktop {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: auto;
+        }
+    }
+    &_logo {
+        margin: 0 0 48px;
+        @include desktop {
+            margin: 0;
+            grid-row: 2;
+            grid-column: 2;
+            text-align: right;
+        }
+    }
+    &_menu {
+        margin: 0 0 48px;
+        @include desktop {
+            display: flex;
+            grid-row: 1;
+            grid-column: 1;
+            margin-bottom: 20px;
+        }
+    }
+    &_menu-list {
+        @include desktop {
+            width: 140px;
+        }
+
+        &__big {
+            @include desktop {
+                width: 60%;
+            }
+        }
+    }
+    &_menu-title {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+        margin: 0 0 23px;
+        padding: 0 18px 0 0;
+        background: url(#{$img}/chevron-down.svg) no-repeat right center;
+        @include desktop {
+            font-weight: 400;
+        }
+
+        .active & {
+            background-image: url(#{$img}/chevron-up.svg);
+        }
+    }
+    &_menu-links {
+        padding: 0;
+        margin: 0 0 26px;
+        display: none;
+        @include desktop {
+            display: block;
+            opacity: 0;
+            pointer-events: none;
+            width: 150%;
+            transition: .2s $easing opacity;
+        }
+
+        .active > & {
+            display: block;
+        }
+        .footer_menu-list:hover & {
+            @include desktop {
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
+    }
+    &_menu-main-links {
+        padding: 0;
+        margin: 0 0 26px;
+        @include desktop {
+            display: flex;
+        }
+    }
+    &_menu-link,
+    &_menu-links li {
+        display: block;
+        margin: 0 46px 10px 0;
+
+        a {
+            font-size: 14px;
+            line-height: 16px;
+            color: $color;
+            @include desktop {
+                white-space: nowrap;
+            }
+
+            &:hover {
+                opacity: .6;
+            }
+            &:active {
+                opacity: .8;
+            }
+        }
+
+        .footer_menu-main-links & a {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 700;
+            @include desktop {
+                font-weight: 400;
+            }
+        }
+    }
+
+    &_title {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        @include desktop {
+            font-size: 30px;
+            line-height: 35px;
+            grid-row: 2;
+            grid-column: 1;
+            max-width: 500px;
+        }
+    }
+    &_social {
+        @include desktop {
+            text-align: right;
+            grid-row: 1;
+            grid-column: 2;
+        }
+    }
+}

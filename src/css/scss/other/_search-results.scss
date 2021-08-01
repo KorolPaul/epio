@@ -1,0 +1,32 @@
+.search-results {
+    background-color: $cLight;
+
+    &_entry {
+        padding: 30px 0 40px;
+        border-top: 1px solid $color;
+        @include tablet {
+            padding: 60px 0 80px;
+        }
+    }
+    &_entry-title {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0 0 20px;
+        @include tablet {
+            font-size: 45px;
+            margin: 0 0 30px;
+        }
+
+        a:not([class]) {
+            text-decoration: none;
+            font-weight: 400;
+        }
+    }
+    &_entry-text {
+        margin: 0 0 30px;
+        @include desktop {
+            margin-bottom: 55px;
+        }
+    }
+}
